@@ -1,4 +1,4 @@
-BiblioVault
+# **BiblioVault**
 
 This project is a simple Java Graphical User Interface that we will build to help learn and exercise basic Java, Git, No SQL, and Beginner data modeling skills. 
 
@@ -21,22 +21,23 @@ Documents are grouped as collections. They typically stored with similar content
 
 
 
-Use cases:
+**Use cases:**
 
-Mobile apps 
-Customer data management and personalization
-User profiles 
-Content Management
-Internet of Things (IoT) and time-series data
-Product catalogs and content management
-Payment processing
-Single view or data hub
-Mainframe offload
-Operational analytics
-Real-time big Data
+* Mobile apps 
+* Customer data management and personalization
+* User profiles 
+* Content Management
+* Internet of Things (IoT) and time-series data
+* Product catalogs and content management
+* Payment processing
+* Single view or data hub
+* Mainframe offload
+* Operational analytics
+* Real-time big Data
 
 
-Why NoSQL?
+**Why NoSQL?**
+
 Flexible data models
 Typical faster 
 Apps where performance and availability are more important than strong consistency.
@@ -46,11 +47,11 @@ Redundancy and Replication- The replication method of scaling horizontally creat
 
 
 
-Useful Database Knowledge:
+**Useful Database Knowledge:**
 
 
 
-What’s a CRUD operation? 
+**What’s a CRUD operation?** 
 CRUD means Create, Read, Update, and Delete. The typical actions you need to execute in a database. Document databases, they're usually done with a query language or API (API think a waiter who’s taking your order and then going to retrieve your food). 
 Create: Documents can be created in the database. Each document has a unique identifier in som
 Read: Documents can be read from the database. The API or query language allows developers to query for documents using their unique identifiers or field values. Indexes can be added to the database to increase read performance.
