@@ -1,5 +1,13 @@
+//Java app imports
 import java.awt.event.*;
 import javax.swing.*;
+
+//Database imports
+import com.mongodb.client.MongoClient;
+import com.mongodb.client.MongoClients;
+import org.bson.Document;
+import org.bson.json.JsonWriterSettings;
+
 
 public class BiblioVaultApp extends JFrame implements ActionListener {
     static JTextField bookTitle, isbnText, authorText, genreText;
