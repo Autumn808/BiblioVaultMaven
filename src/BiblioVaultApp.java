@@ -53,7 +53,7 @@ public class BiblioVaultApp extends JFrame implements ActionListener {
         JLabel genreLabel = new JLabel("Genre:");
         panel.add(genreLabel);
         panel.add(genreText);
-        genreLabel.setAlignmentX(panel.CENTER_ALIGNMENT );//0.0 git remote add origin
+        genreLabel.setAlignmentX(panel.CENTER_ALIGNMENT );//0.0
         genreText.setAlignmentX(panel.LEFT_ALIGNMENT );//0.0
 
         //Here we create our button to submit
