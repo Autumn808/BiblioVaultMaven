@@ -2,13 +2,6 @@
 import java.awt.event.*;
 import javax.swing.*;
 
-//Database imports
-import com.mongodb.client.MongoClient;
-import com.mongodb.client.MongoClients;
-import org.bson.Document;
-import org.bson.json.JsonWriterSettings;
-
-
 public class BiblioVaultApp extends JFrame implements ActionListener {
     static JTextField bookTitle, isbnText, authorText, genreText;
     static JButton submitButton;
@@ -60,7 +53,7 @@ public class BiblioVaultApp extends JFrame implements ActionListener {
         JLabel genreLabel = new JLabel("Genre:");
         panel.add(genreLabel);
         panel.add(genreText);
-        genreLabel.setAlignmentX(panel.CENTER_ALIGNMENT );//0.0
+        genreLabel.setAlignmentX(panel.CENTER_ALIGNMENT );//0.0 git remote add origin
         genreText.setAlignmentX(panel.LEFT_ALIGNMENT );//0.0
 
         //Here we create our button to submit
