@@ -19,7 +19,7 @@ import static com.mongodb.client.model.Filters.eq;
 
 class App extends JFrame implements ActionListener {
     //connection pool imports
-    private static final String CONNECTION_STRING = "mongodb+srv://Admin:database123456@librarydatabase.ejlj5wx.mongodb.net/?retryWrites=true&w=majority&appName=LibraryDatabase";
+    private static final String CONNECTION_STRING = "mongodb+srv://Admin:password@librarydatabase.ejlj5wx.mongodb.net/?retryWrites=true&w=majority&appName=LibraryDatabase";
     private static final int MAX_CONNECTIONS = 10;
     private static final List<com.mongodb.client.MongoClient> connections = new ArrayList<>();
 
